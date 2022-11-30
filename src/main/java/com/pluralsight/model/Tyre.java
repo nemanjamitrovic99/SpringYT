@@ -3,9 +3,9 @@ package com.pluralsight.model;
 public class Tyre {
     private String brand;
 
-    public Tyre(String brand) {
-        this.brand = brand;
-    }
+//    public Tyre(String brand) {
+//        this.brand = brand;
+//    }
 
     public String getBrand() {
         return brand;
@@ -17,8 +17,6 @@ public class Tyre {
 
     @Override
     public String toString() {
-        return "Tyre{" +
-                "brand='" + brand + '\'' +
-                '}';
+        return "Tyre";
     }
 }

@@ -10,9 +10,10 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
 
-//        Vehicle obj=(Vehicle) context.getBean("car");     //ako je dostupan car dobice car, ako je bike dobice bike
-//        obj.drive();
-        Tyre t=(Tyre) context.getBean("tyre");
-        System.out.println(t);
+        Car obj=(Car) context.getBean("car");     //ako je dostupan car dobice car, ako je bike dobice bike
+        obj.drive();
+
+//        Tyre t=(Tyre) context.getBean("tyre");
+//        System.out.println(t);
     }
 }

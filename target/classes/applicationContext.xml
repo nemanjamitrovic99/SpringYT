@@ -11,6 +11,6 @@
 <!--    <bean id="vehicle" class="com.pluralsight.model.Car"/>-->
     <bean id="tyre" class="com.pluralsight.model.Tyre">
 <!--        <property name="brand" value="PropertyForBrand"/>-->
-        <constructor-arg value="Value for Constructor Injection"/>
+<!--        <constructor-arg value="Value for Constructor Injection"/>-->
     </bean>
 </beans>
