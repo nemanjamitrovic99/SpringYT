@@ -10,6 +10,7 @@
     <context:component-scan base-package="com.pluralsight.model"/>
 <!--    <bean id="vehicle" class="com.pluralsight.model.Car"/>-->
     <bean id="tyre" class="com.pluralsight.model.Tyre">
-        <property name="brand" value="PropertyForBrand"/>
+<!--        <property name="brand" value="PropertyForBrand"/>-->
+        <constructor-arg value="Value for Constructor Injection"/>
     </bean>
 </beans>
